@@ -1,0 +1,8 @@
+CÁCH LẤY FILE APK (miễn phí, không cần cài Android Studio)
+1. Đăng nhập github.com (tạo tài khoản miễn phí nếu chưa có) -> New repository -> đặt tên tùy ý.
+2. Bấm "uploading an existing file", kéo THẢ TOÀN BỘ nội dung đã giải nén của thư mục này
+   (www, .github, package.json, capacitor.config.json) lên. Lưu ý thư mục ẩn ".github" phải được upload đủ.
+3. Commit. Vào tab Actions -> chọn "Build APK" -> chờ khoảng 3-6 phút đến khi có dấu tích xanh.
+4. Bấm vào lần chạy đó -> mục Artifacts -> tải "SAT-Li-Don-apk" -> giải nén ra app-debug.apk.
+5. Chép APK sang điện thoại, mở lên, cho phép "Cài từ nguồn không rõ" và cài đặt.
+Sau khi cài, app chạy hoàn toàn offline. Muốn đổi nội dung: sửa www/index.html rồi commit lại để build APK mới.
